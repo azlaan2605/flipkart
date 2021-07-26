@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   -webkit-box-sizing: border-box;
+   min-width: 480px;
+   width: 100%;
+}
+a:active{
+    text-decoration: none;
+    color: black;
+    
+}
+nav{
+    height: 107px;
+    background-color: rgb(29,93,192);
+    min-width: 420px;
+    width: 100%;
+}
+nav img{
+    float: left;
+}
+.plus{
+    position: absolute;
+    left: 225px;
+}
+.cart{
+    position: absolute;
+    top: 5px;
+    left: 268px;
+}
+.login{
+    position: absolute;
+    top: 18px;
+    left: 350px;
+    color: wheat;
+    font-family: sans-serif;
+}
+.search{
+    position: absolute;
+    top: 62px;
+    left: 11px;
+    width: 379px;
+    height: 34px;
+}
+.sec1 img{
+    margin: 2px;
+}
+#edit{
+    border-radius: 29px;
+}
+.sec2 p{
+    font-size: 11px;
+    font-family: sans-serif;
+    display: inline;
+}
+.tex1{
+    position: absolute;
+}
+.tex2{
+    position: absolute;
+    left: 75px;
+}
+.tex3{
+    position: absolute;
+    left: 139px;
+}
+.tex4{
+    position: absolute;
+    left: 202px;
+}
+.tex5{
+    position: absolute;
+    left: 271px;
+}
+.tex6{
+    position: absolute;
+    left: 364px;
+}
+.one{
+    min-width: 406px;
+}
+.two img{
+    width: 100%;
+    margin-top: 23px;
+}
+.two{
+    width: fit-content;
+}
+.three{    
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 135px;
+    margin-top: 13px;
+}
+.four img{
+    width: 100%;
+    margin-top: 22px;
+}
+@media  screen and (min-width:780px) {
+    .side{
+        display: none;
+    }
+    .logo{
+        position: absolute;
+        left: 221px;
+    }
+    .plus{
+        
+    position: absolute;
+    left: 798px;
+    }
+    .cart{
+        
+    position: absolute;
+    left: 849px;
+
+    }
+    .login{
+        
+    position: absolute;
+    left: 946px;
+    
+    }
+    .search{        
+    position: absolute;
+    left: 367px;
+    top: 13px;
+    width: 358px;
+    }
+    nav{
+        height: 62px;
+    }
+    .sec1 img{
+    margin: 54px;
+    margin-top: 21px;
+    border-radius: 54px;
+    margin-left: 126px;
+    }
+    .tex1{
+        position: absolute;
+        left: 115px;
+        top: 157px;
+    }
+    .tex2{
+        position: absolute;
+        left: 366px;
+        top: 157px;
+    }
+    .tex3{
+        position: absolute;
+        left: 613px;
+        top: 157px;
+    }
+    .tex4{
+        position: absolute;
+        left: 856px;
+        top: 157px;
+    }
+    .tex5{
+        position: absolute;
+        left: 1096px;
+        top: 157px;
+    }
+    .tex6{
+        position: absolute;
+        left: 1372px;
+        top: 157px;
+    }
+    .two img{
+        
+    width: 140%;
+    height: 413px;
+}
+.three img{
+    
+    width: 156px;
+    height: 189px;
+}
+.four img{
+
+    width: 983px;
+    margin-top: 87px;
+    margin-left: 282px;
+}
+
+}
