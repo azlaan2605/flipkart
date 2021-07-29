@@ -2,21 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
-body{
-   -webkit-box-sizing: border-box;
-   min-width: 480px;
-   width: 100%;
-}
-a:active{
-    text-decoration: none;
+a:link {
     color: black;
-    
+    background-color: transparent;
+    text-decoration: none;
+  }
+.logo2{
+    display: none;
+}
+button{
+    display: none;
+}
+h3{
+    display: none;
 }
 nav{
     height: 107px;
     background-color: rgb(29,93,192);
-    min-width: 420px;
     width: 100%;
 }
 nav img{
@@ -24,115 +28,194 @@ nav img{
 }
 .plus{
     position: absolute;
-    left: 225px;
+    left: 168px;
 }
 .cart{
     position: absolute;
     top: 5px;
-    left: 268px;
+    left: 200px;
 }
 .login{
     position: absolute;
-    top: 18px;
-    left: 350px;
+    top: 20px;
+    left: 271px;
     color: wheat;
+    font-size: 13px;
     font-family: sans-serif;
 }
 .search{
     position: absolute;
     top: 62px;
     left: 11px;
-    width: 379px;
+    width: 295px;
     height: 34px;
 }
+/* }
 .sec1 img{
     margin: 2px;
+} */
+.sec1 img{    
+    width: 45px;
+    height: 43px;
+    border-radius: 32px;
+}
+.one{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
 }
 #edit{
     border-radius: 29px;
+    width: 37px;
+    height: 38px;
+    position: relative;
+    top: 0;
+}
+.sec2{
+    display: flex;
+    margin: 14px;
+    margin-left: -9px;
+    margin-top: 6px;
+    justify-content: space-evenly;
 }
 .sec2 p{
     font-size: 11px;
     font-family: sans-serif;
-    display: inline;
-}
-.tex1{
-    position: absolute;
-}
-.tex2{
-    position: absolute;
-    left: 75px;
-}
-.tex3{
-    position: absolute;
-    left: 139px;
-}
-.tex4{
-    position: absolute;
-    left: 202px;
-}
-.tex5{
-    position: absolute;
-    left: 271px;
-}
-.tex6{
-    position: absolute;
-    left: 364px;
-}
-.one{
-    min-width: 406px;
 }
 .two img{
     width: 100%;
-    margin-top: 23px;
-}
-.two{
-    width: fit-content;
+    margin-top: 8px;
 }
 .three{    
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
     height: 135px;
     margin-top: 13px;
 }
-.four img{
-    width: 100%;
-    margin-top: 22px;
+.three img{
+    width: 89px;
 }
-@media  screen and (min-width:780px) {
+.four img{
+    width: 89%;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+footer{
+    height: 201px;
+    margin-top: 20px;
+    background-color: rgb(23,35,55);
+}
+.box{
+    width: 76px;
+    height: 138px;
+    margin: 10px;
+    line-height: 14px;
+}
+.five{
+    display: flex;
+}
+li{
+    font-size: 10px;
+    list-style: none;
+    color: white;
+}
+pre{
+    display: none;
+}
+hr.line{
+    margin-top: -43px;
+    color: gray;
+}
+
+.six{
+    background-color: rgb(23,35,55);
+}
+.lines{
+    font-size: 10px;
+    display: -webkit-inline-box;
+    margin: 4px;
+    margin-top: 22px;
+} 
+.lines p{
+    color: white;
+    margin-top: 4px;
+} 
+h6{
+    color: gray;
+}
+.lii{
+    display: none;
+}
+#box5 h6{
+    display: none;
+}
+#box6 h6{
+    display: none;
+}
+@media  screen and (min-width:1024px) {
+    h3{
+    display: block;
+    position: absolute;
+    left: 1133px;
+    top: 17px;
+    font-family: sans-serif;
+    color: white;
+    }
+    button{
+    display: block;
+    width: 134px;
+    height: 33px;
+    color: rgb(13, 126, 255);
+    position: absolute;
+    top: 11px;
+    left: 961px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: white;
+    }
     .side{
-        display: none;
+    display: none;
     }
     .logo{
-        position: absolute;
-        left: 221px;
+    display: none;
+    position: absolute;
+    left: 221px;
     }
-    .plus{
-        
+    .logo2{
+    display: block;
+    width: 136px;
+    position: absolute;
+    left: 206px;
+    height: 48px;
+    top: 3px;
+    }
+    .plus{   
     position: absolute;
     left: 798px;
+    display: none;
     }
     .cart{
-        
     position: absolute;
-    left: 849px;
+    left: 1218px;
+    top: 9px;
+    display: none;
 
     }
     .login{
-        
+    display: none;
     position: absolute;
     left: 946px;
-    
     }
     .search{        
     position: absolute;
     left: 367px;
     top: 13px;
-    width: 358px;
+    width: 465px;
     }
     nav{
-        height: 62px;
+    height: 55px;
+    width: 100%;
+    background-color: rgb(40,116,243);
     }
     .sec1 img{
     margin: 54px;
@@ -142,37 +225,36 @@ nav img{
     }
     .tex1{
         position: absolute;
-        left: 115px;
+        left: 189px;
         top: 157px;
     }
     .tex2{
         position: absolute;
-        left: 366px;
+        left: 420px;
         top: 157px;
     }
     .tex3{
         position: absolute;
-        left: 613px;
+        left: 660px;
         top: 157px;
     }
     .tex4{
         position: absolute;
-        left: 856px;
+        left: 886px;
         top: 157px;
     }
     .tex5{
         position: absolute;
-        left: 1096px;
+        left: 1110px;
         top: 157px;
     }
     .tex6{
         position: absolute;
-        left: 1372px;
+        left: 1355px;
         top: 157px;
     }
-    .two img{
-        
-    width: 140%;
+    .two img{  
+    width: 100%;
     height: 413px;
 }
 .three img{
@@ -182,9 +264,95 @@ nav img{
 }
 .four img{
 
-    width: 983px;
+    width: 1046px;
     margin-top: 87px;
-    margin-left: 282px;
+    margin-left: 232px;
 }
+footer{
+    height: 372px;
+}
+pre{
+    display: block;
+    color: white; 
+    font-size: 13px;
+    line-height: 25px;
+}
+li{
+    font-size: 13px;
+    line-height: 25px;
+}
+#box5 h6{
+    display: block;
+    font-size: 13px;
+}
+#box6 h6{
+    display: block;
+    font-size: 13px;
+}
+.box{
+    margin-top: 39px;
+}
+.lines{
+    margin-top: 15px;
+}
+.lii{
+    display: block;
+    width: 520px;
+    margin-left: 487px;
+    margin-top: -33px;
 
+}
+#box6{
+    
+    margin-left: 242px;
+}
+}
+@media  screen and (min-width:375px){
+    .sec1 img{
+        margin-left: 8px;
+    }
+    .search{
+        width: 351px;
+    }
+    .login{
+        margin-left: 51px;
+    }
+    .cart{
+        margin-left: 38px;
+    }
+    .plus{
+        margin-left: 20px;
+    }
+}
+@media  screen and (min-width:768px){
+    .sec1 img{
+        margin:34px;
+    }
+    .sec2 p{
+        margin-top: -29px;
+    }
+    .search{
+        width: 700px;
+    }
+    .login{
+        margin-left: 407px;
+    }
+    .cart{
+        margin-left: 369px;
+    }
+    .plus{
+        margin-left: 314px;
+    }
+    .four img{
+        margin-left: 43px;
+    }
+
+}
+@media  screen and (min-width:425px){
+    .sec1 img{
+        margin: 8px;
+    }
+    .search{
+        width: 401px;
+    }
 }
