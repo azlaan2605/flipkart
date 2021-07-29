@@ -217,40 +217,46 @@ h6{
     width: 100%;
     background-color: rgb(40,116,243);
     }
-    .sec1 img{
+    /* .sec1 img{
     margin: 54px;
     margin-top: 21px;
     border-radius: 54px;
     margin-left: 126px;
+    } */
+    .sec1 img{
+        border-radius: 54px;
+    }
+    .sec1{
+        display: contents;
     }
     .tex1{
         position: absolute;
-        left: 189px;
+        left: 160px;
         top: 157px;
     }
     .tex2{
         position: absolute;
-        left: 420px;
+        left: 390px;
         top: 157px;
     }
     .tex3{
         position: absolute;
-        left: 660px;
+        left: 629px;
         top: 157px;
     }
     .tex4{
         position: absolute;
-        left: 886px;
+        left: 850px;
         top: 157px;
     }
     .tex5{
         position: absolute;
-        left: 1110px;
+        left: 1070px;
         top: 157px;
     }
     .tex6{
         position: absolute;
-        left: 1355px;
+        left: 1315px;
         top: 157px;
     }
     .two img{  
@@ -263,10 +269,11 @@ h6{
     height: 189px;
 }
 .four img{
-
     width: 1046px;
     margin-top: 87px;
-    margin-left: 232px;
+}
+.four{
+    margin-left: 220px;
 }
 footer{
     height: 372px;
